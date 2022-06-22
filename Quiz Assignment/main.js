@@ -9,7 +9,6 @@ function reveal(){
         cans.push(document.getElementsByName(collect));
     }
 
-    var collectedAns = []
     for(let i = 0; i<3; i++){
         for(let j = 0; j<cans[i].length; j++){
             if(cans[i][j].checked){
@@ -22,7 +21,7 @@ function reveal(){
             }
         }
     }
-    result.innerHTML = `<h1>Total Marks ${count}/3</h1>`
+    result.innerHTML = `<h1>Total Marks : ${count}/3</h1>`
 }
 
 function reset(){
