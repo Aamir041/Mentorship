@@ -1,5 +1,6 @@
 var cans = [];
 var result = document.getElementById("result");
+
 function reveal(){
     var count = 0;
     var correctAns = ["Chandigarh",6,"Gandhinagar"]
