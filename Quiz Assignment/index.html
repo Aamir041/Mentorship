@@ -5,12 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quizz</title>
 </head>
 <body>
-    <div>
-        
+    <p id="result"></p>
+    <div class="questions">
+        <div id="q1">
+            <label>What Indian city is capital of two states ?</label>
+            <p><input type="radio" name="ans1" value="Mumbai">Mumbai</p>
+            <p><input type="radio" name="ans1" value="Pune">Pune</p>
+            <p><input type="radio" name="ans1" value="Chandigarh">Chandigarh</p>
+        </div>
+        <div id="q2">
+            <label>How many countries border India?</label>
+            <p><input type="radio" name="ans2" value="9">9</p>
+            <p><input type="radio" name="ans2" value="7">7</p>
+            <p><input type="radio" name="ans2" value="6">6</p>
+        </div>
+        <div id="q3">
+            <label>What is the capital of Gujarat?</label>
+            <p><input type="radio" name="ans3" value="Ahmedabad">Ahmedabad</p>
+            <p><input type="radio" name="ans3" value="Surat">Surat</p>
+            <p><input type="radio" name="ans3" value="Gandhinagar">Gandhinagar</p>
+        </div>
+        <button type="button" onclick="reveal()">Submit</button>
+        <button type="button" onclick="reset()">Reset</button>
+        <script src="main.js"></script>
     </div>
-    <script src="main.js"></script>
 </body>
 </html>
