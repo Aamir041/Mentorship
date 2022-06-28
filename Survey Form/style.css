@@ -1,0 +1,48 @@
+:root {
+    margin: 0px;
+    padding: 0px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formitem {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 700px;
+    padding: 15px;
+    background-color: lightgrey;
+    border: solid lightgray;
+    border-radius: 10px;
+}
+
+
+.grid-item {
+    margin: 10px;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+}
+
+#subtn {
+    font-size: 23px;
+    margin-top: 20px;
+}

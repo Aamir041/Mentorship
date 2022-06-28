@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    
+    <form>
+        <h2>College Survey Form</h2>
+        <div id="formitem">
+            <label class = "grid-item" for="name">Name</label>
+            <input class = "grid-item" type="text" id="name">
+
+            <label class = "grid-item" for="email">Email</label>
+            <input class = "grid-item" type="text" id="email">
+
+
+            <label class = "grid-item" for="age">Age</label>
+            <input class = "grid-item" type="number" id="age">
+
+
+            <label class = "grid-item" for="">Choose your branch</label>
+
+            <div class = "grid-item" id="branch">
+                <select id="branch">
+                    <option value="NULL">   </option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CSE">Computer Science</option>
+                    <option value="Mech">Mechanical</option>
+                    <option value="Aero">Aerospace</option>
+                    <option value="Civil">Civil</option>
+                </select>
+            </div>
+
+            <label class = "grid-item" id="yearscol">Choose your year</label>
+            
+            <div class = "grid-item year" >
+                <label for=""><input type="radio" name="year" id="year" value="1">1<sup>st</sup> </label>
+                <label for=""><input type="radio" name="year" id="year" value="2">2<sup>nd</sup> </label>
+                <label for=""><input type="radio" name="year" id="year" value="3">3<sup>rd</sup> </label>
+                <label for=""><input type="radio" name="year" id="year" value="4">4<sup>th</sup> </label>
+            </div>
+
+            <label class = "grid-item" for="skills">Which skill would you like to learn</label>
+            <div id="skills">
+                <label for="frontend"> <input type="checkbox" name="skill" id="frontend"> Front-end development</label>
+                <label for="backend"> <input type="checkbox" name="skill" id="backend"> Back-end development</label>
+                <label for="flutter"> <input type="checkbox" name="skill" id="flutter"> Flutter development</label>
+                <label for="React"> <input type="checkbox" name="skill" id="react"> React development</label>
+            </div>
+        </div>
+            
+
+        <button id="subtn" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
